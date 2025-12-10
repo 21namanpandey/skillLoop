@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\My Project\\skillloop\\backend\\contracts\\ServiceSessionLedger.sol": {
+      "lastModificationDate": 1764951246838,
+      "contentHash": "4b35ee3e48b41ee98462bc4fceed09aa",
+      "sourceName": "contracts/ServiceSessionLedger.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ServiceSessionLedger"
+      ]
+    }
+  }
+}

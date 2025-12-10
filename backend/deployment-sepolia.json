@@ -1,0 +1,10 @@
+{
+  "network": "sepolia",
+  "contract": "ServiceSessionLedger",
+  "address": "0xAeaE04A377Ac66E64DEa3280DDC39a6bC44677a9",
+  "deployer": "0x0FB4F913d7DE74a8557995dD2Ad81a6C585973CC",
+  "blockNumber": 9796593,
+  "transactionHash": "0xeb08d9a772ea63667b1813c3ad6d3e961cf8c387f56d23729ecdb36f6dd27357",
+  "gasUsed": "1243787",
+  "timestamp": "2025-12-08T15:00:11.547Z"
+}
