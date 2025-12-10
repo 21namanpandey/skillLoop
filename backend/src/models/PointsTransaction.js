@@ -13,7 +13,7 @@ const PointsTransactionSchema = new mongoose.Schema(
     },
     type: { 
       type: String, 
-      enum: ["session_completed", "positive_review", "on_chain_verified", "dispute_won", "weekly_bonus"],
+      enum: ["session_completed", "positive_review", "on_chain_verified", "dispute_won", "weekly_bonus","received_positive_review"],
       required: true 
     },
     referenceId: { 
