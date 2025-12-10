@@ -667,9 +667,10 @@ const Requests = () => {
                                           </span>
                                           <div className="flex-1">
                                             <span className="font-medium text-gray-700">Connection Details: </span>
-                                            <span className="text-gray-900 wrap-break-word">
+                                            {/* <span className="text-gray-900 wrap-break-word">
                                               {details.connectionDetails}
-                                            </span>
+                                            </span> */}
+                                            <a href={details.connectionDetails} target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>{details.connectionDetails}</a>
                                           </div>
                                         </div>
                                       )}
@@ -870,9 +871,10 @@ const Requests = () => {
                                           </span>
                                           <div className="flex-1">
                                             <span className="font-medium text-blue-700">Connection Details: </span>
-                                            <span className="text-blue-900 wrap-break-word">
+                                            {/* <span className="text-blue-900 wrap-break-word">
                                               {details.connectionDetails}
-                                            </span>
+                                            </span> */}
+                                            <a href={details.connectionDetails} target="_blank" rel="noopener noreferrer" className='text-blue-600 underline'>{details.connectionDetails}</a>
                                           </div>
                                         </div>
                                       )}
